@@ -1,0 +1,13 @@
+name = "rtlex_tests"
+description = "Tests for the built-in Alire test runner"
+version = "0.0.0-test"
+
+[[depends-on]]
+rtlex = "*"
+
+[[pins]]
+rtlex = { path = ".." }
+
+[build-profiles]
+rtlex       = "validation"
+rtlex_tests = "validation"

@@ -1,0 +1,16 @@
+name = "rtlex"
+description = "Regex table lexer"
+version = "0.1.0-dev"
+
+authors = ["Jörgen Brandt"]
+maintainers = ["Jörgen Brandt <joergen@cuneiform-lang.org>"]
+maintainers-logins = ["joergen7"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["regex", "lexer"]
+
+[build-switches]
+"*".ada_version = "Ada2022"
+
+[test]
+runner = "alire"
